@@ -1,8 +1,9 @@
 import axios from 'axios';
 
 // Create axios instance with base URL
+const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || 'https://sihath-assignment.onrender.com') + '/api';
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: apiBaseUrl,
     headers: {
         'Content-Type': 'application/json',
     },

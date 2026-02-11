@@ -1,0 +1,82 @@
+{
+    "nav": {
+        "home": "Home",
+        "categories": "Categories",
+        "workshops": "Workshops",
+        "admin": "Admin",
+        "signin": "Sign In",
+        "join": "Join Now",
+        "logout": "Logout",
+        "my_orders": "My Orders"
+    },
+    "hero": {
+        "title": "Urban Harvest Hub",
+        "subtitle": "Connect with nature, your community, and a sustainable future.",
+        "cta": "Start Exploring"
+    },
+    "weather": {
+        "title": "Today's Weather",
+        "status": "{{temp}}°C - Perfect for gardening!"
+    },
+    "data_descriptions": {
+        "1": "Learn the basics of growing your own food in small urban spaces.",
+        "2": "Rediscover the joy of cooking with vegetables that taste the way nature intended. Every week, we hand-select the crispest, most vibrant organic produce from the season’s harvest and deliver it straight to you. From crunchy leafy greens to hearty root vegetables, our $35 Weekly Box is a curated surprise that inspires healthier, more delicious meals for you and your family. Eat fresh, eat seasonal, and taste the difference.",
+        "3": "Durable, reusable stainless steel water bottle to reduce plastic waste.",
+        "4": "Join industry leaders and community activists for a day of talks and networking.",
+        "5": "Capture the beauty of nature while learning sustainable photography techniques.",
+        "6": "Connect with nature through the art of writing and mindful journaling.",
+        "7": "Learn to make your own eco-friendly soaps, scrubs, and household cleaners.",
+        "8": "Celebrate the season with fresh produce, music, and community spirit.",
+        "9": "Discover the latest in eco-friendly technology and sustainable living solutions."
+    },
+    "categories": {
+        "title": "Browse by Category",
+        "view_all": "View All",
+        "not_found": "Category not found",
+        "load_error": "Failed to load items. Please try again later.",
+        "no_items": "No items found in this category yet.",
+        "view_details": "View Details",
+        "data": {
+            "products": {
+                "name": "Fresh Products",
+                "description": "Locally grown, organic produce delivered straight from the farm."
+            },
+            "workshops": {
+                "name": "Urban Workshops",
+                "description": "Learn sustainable living skills from composting to vertical gardening."
+            },
+            "events": {
+                "name": "Community Events",
+                "description": "Join our local meetups, farm tours, and seasonal celebrations."
+            }
+        }
+    },
+    "item": {
+        "not_found": "Item not found",
+        "load_error": "Failed to load item details",
+        "add_to_cart": "Add to Cart",
+        "register_now": "Register Now",
+        "reviews": "Community Reviews",
+        "leave_review": "Leave a Review as {{name}}",
+        "placeholder": "Share your thoughts...",
+        "post_review": "Post Review",
+        "logged_out_review": "Join our community to leave reviews and share your experience.",
+        "login_to_review": "Log in to write a review",
+        "enrolled": "{{enrolled}}/{{capacity}} enrolled"
+    },
+    "footer": {
+        "brand_desc": "Connecting urban communities with fresh, local produce and sustainable living workshops. Join the movement for a greener city.",
+        "links_title": "Quick Links",
+        "contact_title": "Contact Us",
+        "newsletter_title": "Newsletter",
+        "newsletter_desc": "Subscribe to get updates on fresh produce arrivals and workshop schedules.",
+        "placeholder": "Your email address",
+        "subscribe": "Subscribe Now",
+        "rights": "All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "cookies": "Cookie Policy",
+        "about": "About Us",
+        "address": "123 Green Street, Urban District, Eco City, EC 45678"
+    }
+}

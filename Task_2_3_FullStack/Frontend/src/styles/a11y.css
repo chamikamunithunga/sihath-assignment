@@ -1,0 +1,139 @@
+/* Accessibility Styles for Urban Harvest Hub */
+
+/* Skip to Content Link - Hidden until focused */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #16a34a;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 0 0 4px 0;
+    z-index: 100;
+    transition: top 0.2s ease;
+}
+
+.skip-to-content:focus {
+    top: 0;
+    outline: 3px solid #fbbf24;
+    outline-offset: 2px;
+}
+
+/* Enhanced Focus Indicators */
+/* Use focus-visible to show focus only for keyboard navigation */
+*:focus-visible {
+    outline: 3px solid #16a34a;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* Remove default focus outline for mouse users */
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Specific focus styles for buttons */
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid #16a34a;
+    outline-offset: 2px;
+}
+
+/* Focus styles for form inputs */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 2px solid #16a34a;
+    outline-offset: 1px;
+    border-color: #16a34a;
+}
+
+/* Screen Reader Only Utility Class */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Screen Reader Only - Focusable variant */
+.sr-only-focusable:not(:focus):not(:focus-within) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    *:focus-visible {
+        outline-width: 4px;
+        outline-offset: 3px;
+    }
+
+    button,
+    a {
+        border: 2px solid currentColor;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Ensure sufficient color contrast for links */
+a {
+    text-decoration-skip-ink: auto;
+}
+
+/* Focus trap for modals/dialogs */
+.focus-trap {
+    position: relative;
+}
+
+.focus-trap:focus {
+    outline: none;
+}
+
+/* Accessible hidden content */
+/* [aria-hidden="true"] {
+    display: none;
+} - Removed as this hides visual elements that are decorative */
+
+/* Live region styles */
+[aria-live] {
+    position: relative;
+}
+
+/* Ensure interactive elements have minimum touch target size */
+@media (pointer: coarse) {
+
+    button,
+    a,
+    input[type="checkbox"],
+    input[type="radio"] {
+        min-height: 44px;
+        min-width: 44px;
+    }
+}

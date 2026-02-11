@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-eco {
+    @apply inline-block bg-gradient-to-r from-green-600 to-green-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:scale-105 active:scale-95;
+  }
+
+  .card-eco {
+    @apply bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow duration-300;
+  }
+}
+
+@layer utilities {
+  .card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

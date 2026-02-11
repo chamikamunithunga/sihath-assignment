@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Organic Tomatoes",
+        "category": "produce",
+        "price": 4.99,
+        "unit": "kg",
+        "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500&auto=format&fit=crop&q=60",
+        "description": "Fresh, locally grown organic tomatoes. Perfect for salads and sauces.",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "name": "Urban Gardening Workshop",
+        "category": "workshop",
+        "price": 25.00,
+        "date": "2024-04-15",
+        "image": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=500&auto=format&fit=crop&q=60",
+        "description": "Learn the basics of growing your own vegetables in an urban environment.",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "name": "Basil Plant",
+        "category": "plants",
+        "price": 5.50,
+        "unit": "pot",
+        "image": "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=500&auto=format&fit=crop&q=60",
+        "description": "Aromatic basil plant, ready for your kitchen windowsill.",
+        "featured": false
+    },
+    {
+        "id": 4,
+        "name": "Composting 101",
+        "category": "workshop",
+        "price": 15.00,
+        "date": "2024-04-20",
+        "image": "https://images.unsplash.com/photo-1584964658762-b9cac4af8cb4?w=500&auto=format&fit=crop&q=60",
+        "description": "Master the art of composting to reduce waste and nourish your garden.",
+        "featured": false
+    },
+    {
+        "id": 5,
+        "name": "Carrots Bundle",
+        "category": "produce",
+        "price": 3.00,
+        "unit": "bunch",
+        "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=500&auto=format&fit=crop&q=60",
+        "description": "Crunchy and sweet organic carrots.",
+        "featured": true
+    }
+]

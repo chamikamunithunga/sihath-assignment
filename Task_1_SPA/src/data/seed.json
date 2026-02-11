@@ -1,0 +1,121 @@
+{
+    "categories": [
+        {
+            "id": "products",
+            "name": "Products",
+            "icon": "🛍️",
+            "description": "Eco-friendly goods and fresh produce",
+            "image": "/Images/products.jpg"
+        },
+        {
+            "id": "workshops",
+            "name": "Workshops",
+            "icon": "📚",
+            "description": "Learn and grow with our community",
+            "image": "/Images/workshops.jpg"
+        },
+        {
+            "id": "events",
+            "name": "Events",
+            "icon": "🗓️",
+            "description": "Join our community gatherings",
+            "image": "/Images/events.jpg"
+        }
+    ],
+    "workshops": [
+        {
+            "id": 1,
+            "name": "Urban Gardening Workshop",
+            "category": "workshops",
+            "type": "workshop",
+            "price": 25.00,
+            "image": "/Images/workshop-gardening.jpg",
+            "description": "Learn the basics of growing your own food in small urban spaces.",
+            "date": "2024-04-15",
+            "time": "10:00 AM",
+            "location": "Community Center",
+            "capacity": 20,
+            "enrolled": 12
+        },
+        {
+            "id": 5,
+            "name": "Eco Photography Class",
+            "category": "workshops",
+            "type": "workshop",
+            "price": 45.00,
+            "image": "/Images/workshop-photography.jpg",
+            "description": "Capture the beauty of nature while learning sustainable photography techniques.",
+            "date": "2024-04-20",
+            "time": "09:00 AM",
+            "location": "City Botanical Garden",
+            "capacity": 15,
+            "enrolled": 5
+        },
+        {
+            "id": 6,
+            "name": "Green Writing & Journaling",
+            "category": "workshops",
+            "type": "workshop",
+            "price": 20.00,
+            "image": "/Images/workshop-journaling.jpg",
+            "description": "Connect with nature through the art of writing and mindful journaling.",
+            "date": "2024-04-22",
+            "time": "06:00 PM",
+            "location": "Community Library",
+            "capacity": 25,
+            "enrolled": 8
+        },
+        {
+            "id": 7,
+            "name": "DIY Natural Products",
+            "category": "workshops",
+            "type": "workshop",
+            "price": 35.00,
+            "image": "/Images/workshop-diy.jpg",
+            "description": "Learn to make your own eco-friendly soaps, scrubs, and household cleaners.",
+            "date": "2024-04-25",
+            "time": "02:00 PM",
+            "location": "Craft Studio",
+            "capacity": 12,
+            "enrolled": 10
+        }
+    ],
+    "products": [
+        {
+            "id": 2,
+            "name": "Organic Vegetable Box",
+            "category": "products",
+            "type": "product",
+            "price": 35.00,
+            "image": "/Images/product-veggie-box.jpg",
+            "description": "A weekly subscription box filled with fresh, seasonal organic vegetables.",
+            "available": true
+        },
+        {
+            "id": 3,
+            "name": "Eco-Friendly Water Bottle",
+            "category": "products",
+            "type": "product",
+            "price": 18.00,
+            "image": "/Images/product-water-bottle.jpg",
+            "description": "Durable, reusable stainless steel water bottle to reduce plastic waste.",
+            "available": true
+        }
+    ],
+    "events": [
+        {
+            "id": 4,
+            "name": "Sustainability Summit 2024",
+            "category": "events",
+            "type": "event",
+            "price": 50.00,
+            "image": "/Images/event-summit.jpg",
+            "description": "Join industry leaders and community activists for a day of talks and networking.",
+            "date": "2024-05-20",
+            "time": "09:00 AM",
+            "location": "Convention Hall",
+            "capacity": 200,
+            "enrolled": 150
+        }
+    ]
+}

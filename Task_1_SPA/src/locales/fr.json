@@ -1,0 +1,71 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "categories": "Catégories",
+        "workshops": "Ateliers",
+        "admin": "Admin",
+        "signin": "Se connecter",
+        "join": "Rejoindre",
+        "logout": "Déconnexion",
+        "my_orders": "Mes Commandes"
+    },
+    "hero": {
+        "title": "Urban Harvest Hub",
+        "subtitle": "Connectez-vous avec la nature, votre communauté et un avenir durable.",
+        "cta": "Commencer à explorer"
+    },
+    "weather": {
+        "title": "Météo du jour",
+        "status": "{{temp}}°C - Parfait pour le jardinage !"
+    },
+    "categories": {
+        "title": "Parcourir par catégorie",
+        "view_all": "Voir tout",
+        "not_found": "Catégorie non trouvée",
+        "load_error": "Échec du chargement des articles. Veuillez réessayer plus tard.",
+        "no_items": "Aucun article trouvé dans cette catégorie pour le moment.",
+        "view_details": "Voir les détails",
+        "data": {
+            "products": {
+                "name": "Produits Frais",
+                "description": "Produits biologiques cultivés localement, livrés directement de la ferme."
+            },
+            "workshops": {
+                "name": "Ateliers Urbains",
+                "description": "Apprenez des compétences de vie durable, du compostage au jardinage vertical."
+            },
+            "events": {
+                "name": "Événements Communautaires",
+                "description": "Rejoignez nos rencontres locales, nos visites de fermes et nos célébrations saisonnières."
+            }
+        }
+    },
+    "item": {
+        "not_found": "Article non trouvé",
+        "load_error": "Échec du chargement des détails de l'article",
+        "add_to_cart": "Ajouter au panier",
+        "register_now": "S'inscrire maintenant",
+        "reviews": "Avis de la communauté",
+        "leave_review": "Laisser un avis en tant que {{name}}",
+        "placeholder": "Partagez vos pensées...",
+        "post_review": "Publier l'avis",
+        "logged_out_review": "Rejoignez notre communauté pour laisser des avis et partager votre expérience.",
+        "login_to_review": "Connectez-vous pour écrire un avis",
+        "enrolled": "{{enrolled}}/{{capacity}} inscrits"
+    },
+    "footer": {
+        "brand_desc": "Connecter les communautés urbaines avec des produits frais et locaux et des ateliers de vie durable. Rejoignez le mouvement pour une ville plus verte.",
+        "links_title": "Liens Rapides",
+        "contact_title": "Contactez-nous",
+        "newsletter_title": "Newsletter",
+        "newsletter_desc": "Abonnez-vous pour recevoir des mises à jour sur les arrivages de produits frais et les horaires des ateliers.",
+        "placeholder": "Votre adresse e-mail",
+        "subscribe": "S'abonner maintenant",
+        "rights": "Tous droits réservés.",
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d'utilisation",
+        "cookies": "Politique relative aux cookies",
+        "about": "À propos de nous",
+        "address": "123 Rue Verte, Quartier Urbain, Éco Cité, EC 45678"
+    }
+}
